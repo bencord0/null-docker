@@ -6,16 +6,16 @@ I would prefer an empty directory, but this is the best I can do.
 Quick Usage
 -----------
 
-  $ docker run bencord0/null ip a
+    $ docker run bencord0/null ip a
 
 Long Usage
 ----------
 
-  $ git clone https://github.com/bencord0/null-docker.git
-  $ cd null-docker
-  $ git archive HEAD | docker import - bencord0/null
+    $ git clone https://github.com/bencord0/null-docker.git
+    $ cd null-docker
+    $ git archive HEAD | docker import - bencord0/null
 
-  $ docker run bencord0/null /bin/ip -6 addr show
+    $ docker run bencord0/null /bin/ip -6 addr show
 
 Notes
 -----
